@@ -1,0 +1,103 @@
+.navbar-brand {
+  font-family: "Noto Serif", serif;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.nav-item {
+  margin-top: 10px;
+  font-family: "Noto Serif", serif;
+  font-weight: 500;
+}
+
+.content {
+  margin-left: 20px;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+}
+
+.app {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: #111827;
+}
+
+.workspace {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.panel {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+}
+
+.panel h2 {
+  margin-bottom: 15px;
+  color: #374151;
+}
+
+textarea {
+  flex: 1;
+  min-height: 320px;
+  padding: 15px;
+  font-family: monospace;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  resize: none;
+}
+
+button {
+  margin-top: 15px;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+button:disabled {
+  background: #9ca3af;
+}
+
+.output {
+  flex: 1;
+  background: #0f172a;
+  color: #22c55e;
+  padding: 15px;
+  border-radius: 8px;
+  font-family: monospace;
+  white-space: pre-wrap;
+  overflow-y: auto;
+}
+
+@media (max-width: 900px) {
+  .workspace {
+    grid-template-columns: 1fr;
+  }
+}
