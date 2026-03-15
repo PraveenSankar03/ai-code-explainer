@@ -22,14 +22,14 @@ const Home = () => {
   };
   return (
     <div className="app">
-      <h1 className="title">⚡ Code Explainer</h1>
+      <h1 className="title">Code Explainer</h1>
 
       <div className="workspace">
         <div className="panel">
           <h2>Code</h2>
 
           <textarea
-            placeholder="Paste your code here..."
+            placeholder="Paste your code here. (Important : Please read the about before using.)"
             value={code}
             onChange={(e) => setCode(e.target.value)}
           />
