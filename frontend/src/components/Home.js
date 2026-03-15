@@ -29,7 +29,7 @@ const Home = () => {
           <h2>Code</h2>
 
           <textarea
-            placeholder="Paste your code here. (Important : Please read the about before using.)"
+            placeholder="Important ! : Please read the about page before using. You can find the about page in the Navbar."
             value={code}
             onChange={(e) => setCode(e.target.value)}
           />
