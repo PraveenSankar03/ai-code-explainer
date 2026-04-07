@@ -31,6 +31,16 @@ const Navbar = () => {
                 About
               </Link>
             </li>
+            <li className="nav-item">
+              <a href="https://github.com/PraveenSankar03" className="nav-link active" target="blank">
+                GitHub
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="https://portfolio-praveen03.vercel.app/" className="nav-link active" target="blank">
+                Portfolio
+              </a>
+            </li>
           </ul>
         </div>
       </div>
